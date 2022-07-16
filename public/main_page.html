@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Inserisco il link a bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Inserisco il titolo della mia pagina nel browser -->
+    <title>Cinema 1635</title>
+    <!-- voglio inserire anche un'icona -->
+    <link rel="icon" type="image/png" sizes="20x20" href="Media/logo.png">
+
+
+    <!-- Definisco lo stile della mia pagina -->
+    <style>
+
+        body{
+            background-color: rgb(23, 21, 21);
+        }
+
+        h1{
+          margin-bottom: 0px !important;
+          font-family: "Times New Roman", Times, serif;
+          color: rgb(215, 215, 26);
+        }
+
+        h4{
+            color:white
+            margin-bottom: 0px !important;
+            font-family: "Times New Roman", Times, serif;
+            color: rgb(215, 215, 26);
+
+        }
+
+        .proposte > p{
+            color: white;
+        }
+
+
+        .carousel-item > img {
+        height: 600px;
+        width: 50%;
+        /* object-fit: cover; */
+        object-fit: contain;
+      }
+
+      .carousel-item{
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-attachment: fixed;
+        opacity: 0.9;
+      }
+    </style>
+
+</head>
+
+
+<body>
+   <header>
+    <h1 id ="top" class="display-2 bg-dark text-yellow text-center"> CINEMA 1635 </h1>       
+</header>
+
+   <!-- inserisco una barra di navigazione che contien gli hyperlinks per le altre pagine del sito-->
+   <div>
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+      <!-- Brand/logo -->
+      <a class="navbar-brand" href="#">
+        <img src="Media/logo.png" alt="logo" style="width:50px;">
+      </a>
+      <!-- Links --> 
+      <ul class="nav justify-content-center">
+        <li class="nav-item"> <a class="nav-link text-dark" href="main_page.html"> HOME </a> </li>
+        <li class="nav-item"> <a class="nav-link text-dark" href="chi_siamo.html"> CHI SIAMO </a> </li>
+        <li class="nav-item"> <a class="nav-link text-dark" href="recensioni.html"> RECENSIONI </a> </li>
+        <li class="nav-item"> <a class="nav-link text-dark" href="biglietteria.html"> BIGLIETTERIA</a>  </li>
+      </ul>
+    </nav>
+  </div>
+
+
+  <!-- Slider -->
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="4000">
+        <img id src="Media/baz.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="Media/spiderman.jpeg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="Media/thor.jpeg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Introduco le proposte cinematograifche attuali -->
+  <div class="proposte">
+    <h4> Le nostre proposte cinematografiche del momento!</h4>
+    <p>Scorri la pagina per vedere gli ultimi film usciti, ma anche i film acclamati dalla critica riproposti periodicamente nelle nostre sale!</p>
+  </div>
+
+
+
+
+  <!-- FOOTER -->
+<div class="container my-5">
+
+    <footer style="background-color: #deded5;">
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 mb-4">
+          <h5 class="mb-3" style="letter-spacing: 2px; color: #818963;">LE NOSTRE SALE</h5>
+          <p>
+            Il 1635 di Genova è il multisala a pochi km dal centro di Genova.<br>
+            Offre 11 sale, tutte dotate di tecnologia Digital Dolby Surround, poltrone confortevoli e spaziose, anche VIP. <br>
+            A tua disposizione c’è anche l’area ristorazione, dove puoi trovare soft drink e caffetteria, popcorn, snack, caramelle e molto altro.<br>
+            Consulta la programmazione, guarda i trailer e scegli il tuo prossimo film. <br>
+            <strong>Tutti i giorni film a partire da 4,90€.</strong>
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <h5 class="mb-3" style="letter-spacing: 2px; color: #818963;">Information</h5>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-1">
+              <a href="https://www.provincia.bz.it/sicurezza-protezione-civile/protezione-civile/eventi-manifestazioni.asp" style="color: #4f4f4f;">Frequently Asked Questions About Covid</a>
+            </li>
+            <li class="mb-1">
+              <a href="https://www.tripadvisor.it/RestaurantsNear-g187823-d5971244-Fiumara_Shopping_Fun-Genoa_Italian_Riviera_Liguria.html!" style="color: #4f4f4f;">Restaurant Near Us</a>
+            </li>
+            <li class="mb-1">
+              <a href="https://www.google.com/maps/@44.4122717,8.8798974,17z" style="color: #4f4f4f;">Our Position</a>
+            </li>
+            <li>
+              <a href="https://imieianimali.it/ecco-le-sale-cinematografiche-per-cani/" style="color: #4f4f4f;">Our Condition About Pet In The Halls</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <h5 class="mb-1" style="letter-spacing: 2px; color: #818963;">Opening Hours</h5>
+          <table class="table" style="color: #4f4f4f; border-color: #666;">
+            <tbody>
+              <tr>
+                <td>Mon - Fri:</td>
+                <td>5pm - 1am</td>
+              </tr>
+              <tr>
+                <td>Sat - Sun:</td>
+                <td>6,30pm - 1am</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-dark" href="https://dirittodellinformazione.it/nuove-regole-sul-copyright/">Cinema 1635 </a>
+    </div>
+  </footer>
+  
+</div>
+<!-- End of .container -->
+
+
+
+
+  <!-- Libreria di Bootstrap  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</body>
+</html>
