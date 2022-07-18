@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(23, 21, 21);
+  }
+  
+  h1{
+    font-size: 90px;
+    font-family:"Courier New", monospace;
+    text-align:center;
+    color:yellow;
+  }
+
+  .proposte > h6 {
+    font-size:30px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    padding-top:50px;
+    color:white;
+    text-align:center;
+
+  }
+
+  .card2{
+    position: relative;
+    left: auto;
+  }

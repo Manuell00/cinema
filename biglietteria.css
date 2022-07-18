@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(23, 21, 21); */
+  }
+  
+  h1{
+    font-size: 90px;
+    font-family:"Courier New", monospace;
+    text-align:center;
+    color:yellow;
+  }
+
+  main{
+    background-image: url(Media/popcorn.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity:0.9;
+  }
+
+  .schema{
+    border-style: solid;
+    border-width: 5px;
+    border-color:grey;
+    margin-top: 70px;
+    color:white;
+    background-color:grey
+  }
+
+  .container{
+    padding-top:25px;
+  }
+  
